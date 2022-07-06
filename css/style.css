@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------- Global class ---------- */
+.align-center {
+    text-align: center;
+}
+
+.button-style-1 {
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    border: 0px;
+    background-image: linear-gradient(9deg, rgba(250, 0, 0, 1) 0%, rgba(255, 200, 0, 1) 86%);
+}
+
+/*--------------- Individual Class---------------- */
+
+
+
+/* --------------Header Section-------------- */
+.header {
+    height: 80vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%), url(../images/header.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 65px;
+    color: white;
+    font-weight: 600;
+}
+
+.header h3 {
+    margin-top: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.header button {
+    margin-top: 30px;
+}
+
+/* --------------Donate Today-------------- */
+.donate-today {
+    margin-top: 80px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donate-today h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.donate-today p {
+    margin-bottom: 25px;
+}
+
+.donation-ammount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donation-ammount-buttons {
+    margin-bottom: 30px;
+}
+
+.donation-ammount-buttons button {
+    height: 100px;
+    width: 125px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(106, 106, 106);
+}
+
+#button-200tk {
+    color: white;
+    background-color: rgb(235, 37, 37);
+    border: 3px solid rgb(206, 121, 98);
+}
+
+.donation-ammount input {
+    margin-bottom: 30px;
+    border: 0px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/* --------------Donate Plan-------------- */
+.donate-plan {
+    margin-top: 100px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donate-plan h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.donation-plan-card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    padding: 50px 25px;
+    margin: 15px;
+    width: 300px;
+    height: 250px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.card-title {
+    margin-bottom: 25px;
+}
+
+#card-1 {
+    background-color: rgb(253, 221, 197);
+}
+
+#card-2 {
+    background-color: rgb(255, 252, 196);
+}
+
+#card-3 {
+    background-color: rgb(225, 255, 200);
+}
+
+
+/* --------------How to donate-------------- */
+
+.how-to-donate .row {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.how-to-donate .row .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 35%;
+}
+
+.how-to-donate .row .text h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.how-to-donate .row .text p {
+    margin-bottom: 25px;
+}
+
+.how-to-donate .row .image {
+    display: flex;
+    justify-content: end;
+    width: 35%;
+}
+
+.how-to-donate .row .image img {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.how-to-donate #row-2 {
+    flex-direction: row-reverse;
+}
+
+.how-to-donate #row-2 .image {
+    justify-content: start;
+}
+
+.how-to-donate #row-2 .image img {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+/* --------------Subscribe-------------- */
+section.subscribe {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.subscribe h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+section.subscribe .form {
+    margin-top: 30px;
+    height: 200px;
+    width: 600px;
+    background-color: rgba(255, 229, 181, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.subscribe .form input {
+    background-color: rgb(219, 219, 219);
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    height: 35px;
+    width: 250px;
+    padding: 2px 5px;
+}
+
+section.subscribe .form button {
+    color: white;
+    background-color: rgb(255, 69, 69);
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    height: 39px;
+    padding: 2px 15px;
+}
+
+/* --------------Footer--------------- */
+footer {
+    height: 200px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.616);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    font-family: 'Splash', cursive;
+}
+
+footer p {
+    font-weight: 300;
+}
